@@ -1,0 +1,317 @@
+/* -------------------------------------------------SIDE NAV-BAR---------------------------------------------- */
+
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif");
+    color: white;
+    float: left;
+    height: 100%;
+    overflow-x: hidden;
+    border-right: 5px solid white;
+}
+
+.name {
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+.textt {
+    font-family: cursive;
+}   
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.profile-image {
+    height: 200px;
+    max-width: 160px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+.bio {
+    font-size: 13px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.btn-primary {
+    width: 35px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    background-color: #54B689;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.nav-link {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: large;
+    color: lightgray;
+    background-color: black;
+    margin: 10px 50px 10px 50px;
+    border-radius: 20px;
+}
+
+
+/* ------------------------------------------------MAIN SECTION--------------------------------------------------- */
+
+.main-wrapper {
+    margin-top: 0;
+    background-image: url("./assets/images/trianglifyGreen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    height: 100%;
+    float: right;
+}
+
+.tag-line {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.bio2 {
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.textLinks {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.textLinks a:hover {
+    text-decoration: none;
+}
+
+/* .about-me-section {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-overflow: clip !important;
+} */
+
+#projectsHeader {
+    background-image: url("./assets/images/honeycomb.jpg");
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    height: 80px;
+    font-size: 60px;
+    /* margin-left: -80px !important;
+    margin-right: -78px !important; */
+}
+
+.bd-example {
+    margin: auto;
+    border: 5px solid lime;
+}
+
+.fa-play {
+    margin-right: 50px;
+}
+
+.d-block {
+    opacity: 0.5 !important;
+}
+
+
+/* ----------------------------------------MISC GLOBAL--------------------------------------------- */
+
+a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-color: white;
+}
+
+h2 {
+    /* background-image: url("./assets/images/honeycomb.jpg"); */
+    text-align: center;
+    color: white;
+    /* padding: 5px; */
+    /* border: 2px solid white; */
+    font-family: fantasy;
+}
+
+h5 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* (OLD PROJECTS CARDS SECTION, MIGHT USE STILL) */
+
+.card {
+    /* width: 800px !important; */
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.card-img-top {
+    border-bottom: solid 1px black;
+    padding: 5px;
+    background-color: #54B689;
+}
+
+.projects {
+    margin-bottom: 100px;
+}
+
+.card-deck {
+    margin-top: 25px;
+}
+
+
+/*------------------------------------------contact section-------------------------------------------------*/
+
+#contact {
+    background-image: url("./assets/images/contact2.jpg");
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 80px;
+    padding: 8px;
+    font-size: 50px;
+    border-radius: 0 !important;
+    color: black;
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+label {
+    float: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 2px solid #54B689;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #077BFF;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background: rgb(3, 83, 175);
+}
+
+
+.myInfo {
+    float: right;
+}
+
+.first {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.second {
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.smaller {
+    font-size: 12px;
+}
+
+
+/* -------------------------------------FOOTER---------------------------------------- */
+#footer {
+    margin-left: 15%;
+}
+
+footer {
+    background-image: url("./assets/images/spaceGif.gif");
+    clear: both;
+    height: 200px;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 2px;
+}
+
+#particles-js {
+    height: 90%;
+    margin: auto !important;
+    padding: auto !important;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+
+@media only screen and (max-width: 992px) {
+    .header {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #footer {
+        margin-left: 0px;
+    }
+    .bio {
+        background-color: transparent;
+    }
+    .nav-link {
+        background-color: transparent;
+    }
+}
